@@ -1,0 +1,182 @@
+
+html{
+    scroll-behavior: smooth;
+}
+#navbar{
+    display:flex;
+    align-items: center;
+   position: sticky;
+   top: 0px;
+}
+/*for navbar*/
+#logo{
+margin: 20px 30px;
+}
+#logo img{
+    margin: 0px 0px;
+    height: 90px;
+
+}
+
+ #navbar ul{
+    display:flex;
+    font-family: 'Anton', sans-serif;
+}
+#navbar::before{
+content: "";
+background-color:black;
+position: absolute;
+top: 0px;
+left: 0px;
+height: 82%;
+width: 100%;
+z-index: 0.1;
+opacity: 0;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1rem;
+}
+
+ #navbar ul li a{
+    color:rgb(219, 133, 133);
+  padding:10px 43px ;
+  border-radius: 200px;
+  text-decoration: none;
+ }
+#navbar ul li a:hover{
+color: rgb(95, 49, 49);
+background-color: white;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 20px;
+    height: 533px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+background:url('../bg1.jpg') no-repeat center center/cover;
+position: absolute;
+height: 82%;
+top: 0px;
+left: 0px;
+width: 100%;
+z-index: -1;
+opacity: 0.80;
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+ #services{
+    margin: 23px;
+    display: flex;
+}
+#services .box{
+    display:block;
+    border: 4px solid rgb(245, 14, 14);
+    border-radius: 10px;
+    padding:0px;
+    margin:3px 14px;
+    background:white;
+}
+#services .box img{
+    height:400px;
+    margin: auto;
+}
+#client-section{
+    position: relative;
+height: 344px;
+}
+#client-section::before{
+    content: "";
+    position:absolute;
+    background:url('../pexels-oleg-magni-2058131.jpg') no-repeat center/cover;
+    width:100%;
+    height: 110%;
+    opacity: 0.3;
+    z-index: 2;
+}
+#clients{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients img{
+    display: flex;
+    height: 80px;
+}
+.client-item{
+    display:flex;
+    padding:0px;
+}
+#contact {
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('../del.jpg')  no-repeat center center/cover;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+#contact-box form{
+    width: 40%;
+
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family:'Oswald', sans-serif; 
+}
+footer{
+    background: black;
+    color: white;
+
+}
+.h-primary{
+    font-size: 2.8rem;
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.h-secondary{
+    font-size: 1rem;
+    padding: 12px;
+    font-family: 'Oswald', sans-serif;
+}
+.btn{
+    padding: 6px 18px;
+    border: 2px solid brown;
+    background-color: crimson;
+    margin: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+
+

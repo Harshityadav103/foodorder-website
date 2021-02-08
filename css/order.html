@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order detail</title>
+    <style type="text/css">
+    *{
+        margin: 12px;
+        padding: 0;
+    }
+    body{
+        background-image:url('food1.jpg');
+        background-position: center;
+        background-size: cover;
+        font-family: sans-serif;
+        margin-top: 40px;
+    }
+    .paymentform{
+        width: 800px;
+        background-color: rgb(0,0,0,0.6);
+        margin: auto;
+        color: #FFFFFF;
+        padding: 10px 0px 10px 0px ;
+        text-align: center;
+        border-radius: 15px 15px 0px 0px;
+    }
+    .main{
+        background-color: rgb(0,0,0,0.6);
+        width: 800px;
+        margin: auto;
+    }
+    .form{
+        padding: 10px;
+    }
+    #name{
+        width: 100%;
+        height:100px ;
+    }
+    .name{
+        margin-left: 25px;
+        margin-top: 10px;
+        width: 125px;
+        color: white;
+        font-weight: 700;
+    }
+  .firstname{
+      color: white;
+      font-weight: 700;
+  }
+.btn{
+    border-radius: 4px solid black;
+    margin-top: 5px;
+    margin-left: 27px;
+    color: red;
+}
+    </style>
+</head>
+<body>
+    <div class="paymentform"><h1>payment now</h1></div>
+    <div class="main">
+<form>
+<div id="name">
+<h2 class="name"></h2>
+
+</div>
+<h2 class="name">Name</h2>
+<input class="company" type="text" name="company">
+<h2 class="name">Email</h2>
+<input class="company" type="text" name="Email">
+<h2 class="name">Phone</h2>
+<input class="code" type="text" name="phone">
+<h2 class="name">card option</h2>
+<select class="option" name="card_type">
+<option disabled="disabled" selected="selected">----choose option</option>
+<option>mastercard</option>
+<option>Visa</option>
+<option>rupay</option>
+
+</select>
+
+</form>
+<button class="btn">pay now</button>
+</div>
+</body>
+</html>
